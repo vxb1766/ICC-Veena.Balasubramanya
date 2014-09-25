@@ -1,0 +1,841 @@
+@import "http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css";
+@import "http://fonts.googleapis.com/css?family=Roboto:400,500";
+@import "http://fonts.googleapis.com/css?family=Tangerine|Gabriela|Chewy|Lobster|Raleway|Henny+Penny|Indie+Flower|Courgette|Pacifico|Gloria+Hallelujah&effect=shadow-multiple|3d-float";
+
+body{
+	-webkit-font-smoothing: antialiased;
+	background-color: black ; //black;
+	font-family: Gabriela;
+}
+
+
+/*
+==================NavBar Realated CSS==================
+*/
+.navbar-inverse .navbar-brand {
+color: #fff;
+}
+.navbar-inverse {
+background-color: black;
+border-color: rgba(8, 8, 8, 0);
+}
+.navbar-brand{
+	color: #fff;
+}
+
+
+
+
+/*
+==================Modal Realated CSS==================
+*/
+
+
+
+/*
+==================Google Fonts Realated CSS==================
+*/
+@font-face {
+	font-family: 'Tangerine', serif;
+	font-size: 48px;
+
+}
+
+h2.three {
+	background:#008000 ;
+	font-family: 'Gabriela', cursive; /*Chewy is available at Google Webfonts http://www.google.com/webfonts/specimen/Chewy*/
+	color: #fff;
+	text-shadow:0px 0px 0 rgb(218,218,218), -1px 0px 0 rgb(203,203,203), -2px 0px 0 rgb(187,187,187), -3px 0px 0 rgb(172,172,172), -4px 0px 0 rgb(156,156,156), -5px 0px 0 rgb(140,140,140), -6px 0px 5px rgba(0,0,0,0.5), -6px 0px 1px rgba(0,0,0,0.5);
+}
+
+.font-effect-3dText{
+	font-family: 'Gabriela', serif;
+	font-size: 68px;
+	padding-left: 50px;
+	color: #F7F7EF;
+
+}
+
+.font-effect-3d{
+	font-family: 'Gabriela', cursive;
+	font-size: 48px;
+/*	text-shadow:0px 0px 0 rgb(218,218,218), -1px 0px 0 rgb(203,203,203), -2px 0px 0 rgb(187,187,187), -3px 0px 0 rgb(172,172,172), -4px 0px 0 rgb(156,156,156), -5px 0px 0 rgb(140,140,140), -6px 0px 5px rgba(0,0,0,0.5), -6px 0px 1px rgba(0,0,0,0.5);
+*/	padding-left: 50px;
+	color: #fff;
+}
+
+.font-effect-neon{
+	background:#000;
+	height: 40px;
+	color:#fff;
+	/*Use shadows to slowly build up the glow. The first shadow should be the colour of the text. Subsequent shadows are the colour you want the glow to be, all with no x or y offset and with increasing amounts of blur (the number of shadows you use depends on how big you want the glow to be).*/
+	text-shadow:0 0 10px #fff, 0 0 20px #00d2ff, 0 0 30px #00d2ff, 0 0 40px #00d2ff, 0 0 50px #00d2ff, 0 0 60px #00d2ff, 0 0 70px #00d2ff;
+}
+.font-effect-shadow-multiple {
+	font-size: 48px;
+	text-shadow: .04em .04em 0 #fff,.08em .08em 0 #aaa;
+	-webkit-text-shadow: .04em .04em 0 #fff, .08em .08em 0 #aaa;
+}
+
+h5, .h5Font {
+font-size: 16px;
+}
+
+/*
+==================Well Realated CSS==================
+*/
+.well{
+	background-color: black;
+	border-color: black;
+}
+.wellContent {
+	font-family: 'Gabriela', serif;
+	font-size: 20px;
+	margin-bottom: 50px;
+	color:rgba(255, 255, 255, 0.73);;
+}
+
+
+
+
+/*
+==================FeaturesBox Realated CSS==================
+*/
+.box > .icon { text-align: center; position: relative; }
+.box > .icon > .image { position: relative; z-index: 2; margin: auto; width: 88px; height: 88px; border: 8px solid black; line-height: 88px; border-radius: 50%; background: #5F1814
+
+	; vertical-align: middle; }
+.box > .icon:hover > .image { background: D08504; }
+.box > .icon > .image > i { font-size: 36px !important; color: #fff !important; }
+.box > .icon:hover > .image > i { color: #FFF !important; }
+.box > .icon > .info { margin-top: -24px; background: rgba(0, 0, 0, 0.04); border: 1px solid #e0e0e0; padding: 15px 0 10px 0; }
+.box > .icon:hover > .info { background: rgba(0, 0, 0, 0.04); border-color: #e0e0e0; color: #08c; }
+.box > .icon > .info > h3.title { font-family: "Roboto",sans-serif !important; font-size: 16px; color: D08504; font-weight: 500; }
+.box > .icon > .info > p { font-family: "Gabriela",sans-serif !important; font-size: 17px; color: D08504; line-height: 1.5em; margin: 20px;}
+/*The Para color U need to change on hover*/
+.box > .icon:hover > .info > h3.title, .box > .icon:hover > .info > p, .box > .icon:hover > .info > .more > a { color: #D08504
+
+	; }
+.box > .icon > .info > .more a { font-family: "Roboto",sans-serif !important; font-size: 12px;  line-height: 12px; text-transform: uppercase; text-decoration: none; }
+.box > .icon:hover > .info > .more > a { color: black; padding: 6px 8px;  }
+.box .space { height: 30px; }
+
+/*Para within the 4 box features*/
+.info p{
+	text-align: left;
+}
+
+#boxOf4Features{
+	margin-top: 30%;
+}
+
+#boxOf4FeaturesRow{
+	margin-bottom: 60px;
+}
+
+/*
+==================Team Realated CSS==================
+*/
+.articles {
+	overflow: hidden;
+}
+
+.article-img img {
+	width: 100%;
+}
+
+.article-img {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.article-overlay {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	background-color: #000;
+	opacity: 0.5;
+	transition: 0.5s ease;
+	-moz-transition: 0.5s ease;
+	-webkit-transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	cursor: pointer;
+}
+.article-overlay:hover {
+	opacity: 0;
+
+}
+
+.container-articles {
+margin-left: 15px;	
+}
+.h2-wrap{
+	
+	padding: 5px  0;
+	background-size: cover;
+	color: rgba(255, 255, 255, 0.73);
+}
+#teamHolder{
+	margin-top: auto;
+}
+
+
+/*
+==================OnClick Realated CSS==================
+Note this is nothing to do with onClick but deals with
+when u click an element it goes to a dummy div placed above each section
+*/
+#space,#space-boxOf4Features,#space-Events,#space-NewStudents,#space-Team,#space-Places,#space-Announcements{
+	height: 1px;
+	margin-bottom: 50px;
+	margin-top: auto;
+}
+
+/*
+==================Badge Realated CSS==================
+*/
+.bs-callout-warning {
+	background-color: #fefbed;
+	border-color: #f0ad4e;
+}
+
+.bs-callout {
+	margin: 20px 0;
+	padding: 15px 30px 15px 15px;
+	border-left: 5px solid #f0ad4e;
+	background-color: #030303;
+	margin-left: 30%;
+}
+.offer-content{
+	color: #a94442
+}	
+
+#BadgeHeader{
+	font-size: 48px;
+	font-weight: bolder;
+	color: #a94442;
+}
+#BadgeContent{
+	
+	color: #500E0C;
+}
+
+
+/*
+==================Event Realated CSS==================
+*/
+
+#EntireFeature{
+	padding-top: 2%;
+
+}
+
+#PanelList,#PanelListContent{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 50px;
+	
+
+}
+
+/*
+==================Panel & Button Realated CSS==================
+*/
+.clickable
+{
+	cursor: pointer;
+}
+
+.clickable .glyphicon
+{
+	background: rgba(0, 0, 0, 0.15);
+	display: inline-block;
+	padding: 6px 12px;
+	border-radius: 4px
+}
+
+.panel-heading span
+{
+	margin-top: -23px;
+	font-size: 15px;
+	margin-right: -9px;
+}
+a.clickable { color: inherit; }
+a.clickable:hover { text-decoration:none; }
+
+
+/*3d button*/
+.panel3d,.btn3d {
+	transition:all .08s linear;
+	position:relative;
+	outline:medium none;
+	-moz-outline-style:none;
+	border:0px;
+	margin-right:10px;
+	margin-top:15px;
+	margin-bottom: 10px;
+}
+.panel3d-success,.btn-success {
+	box-shadow:0 0 0 1px #5cb85c inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #4cae4c, 0 8px 0 1px rgba(0,0,0,0.4), 0 8px 8px 1px rgba(0,0,0,0.5);
+	background-color:#5cb85c;
+}
+.btn3d:focus {
+	outline:medium none;
+	-moz-outline-style:none;
+}
+.btn3d:active {
+	top:9px;
+}
+.btn-default {
+	box-shadow:0 0 0 1px #ebebeb inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #adadad, 0 8px 0 1px rgba(0,0,0,0.4), 0 8px 8px 1px rgba(0,0,0,0.5);
+	background-color:#fff;
+}
+.btn-primary {
+	box-shadow:0 0 0 1px #428bca inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #357ebd, 0 8px 0 1px rgba(0,0,0,0.4), 0 8px 8px 1px rgba(0,0,0,0.5);
+	background-color:#428bca;
+}
+.btn-success {
+	box-shadow:0 0 0 1px #5cb85c inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #4cae4c, 0 8px 0 1px rgba(0,0,0,0.4), 0 8px 8px 1px rgba(0,0,0,0.5);
+	background-color:#5cb85c;
+}
+.btn-info {
+	box-shadow:0 0 0 1px #5bc0de inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #46b8da, 0 8px 0 1px rgba(0,0,0,0.4), 0 8px 8px 1px rgba(0,0,0,0.5);
+	background-color:#5bc0de;
+}
+.btn-warning {
+	box-shadow:0 0 0 1px #f0ad4e inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #eea236, 0 8px 0 1px rgba(0,0,0,0.4), 0 8px 8px 1px rgba(0,0,0,0.5);
+	background-color:#f0ad4e;
+}
+.btn-danger {
+	box-shadow:0 0 0 1px #660000 inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #C24032, 0 8px 0 1px rgba(0,0,0,0.4), 0 8px 8px 1px rgba(0,0,0,0.5);
+	background-color:#660000;
+}
+
+
+/*
+==================Send Form Modal Realated CSS==================
+*/
+.modal-body:not(.two-col) { padding:0px }
+.glyphicon { margin-right:5px; }
+.glyphicon-new-window { margin-left:5px; }
+.modal-body .radio,.modal-body .checkbox {margin-top: 0px;margin-bottom: 0px;}
+.modal-body .list-group {margin-bottom: 0;}
+.margin-bottom-none { margin-bottom: 0; }
+.modal-body .radio label,.modal-body .checkbox label { display:block; }
+.modal-footer {margin-top: 0px;}
+@media screen and (max-width: 325px){
+    .btn-close {
+        margin-top: 5px;
+        width: 100%;
+    }
+    .btn-results {
+        margin-top: 5px;
+        width: 100%;
+    }
+    .btn-vote{
+        margin-top: 5px;
+        width: 100%;
+    }
+    
+}
+
+/*
+==================About us & Success msg in AJAX call Modal Realated CSS==================
+*/
+
+.modal-footer .btn+.btn {
+    margin-left: 0px;
+}
+.progress {
+    margin-right: 10px;
+}
+
+#Success-Modal,#modal-example{
+	margin: 3%;	
+	width : 50%;
+	left: 30%;
+	top: 15%;
+	bottom: 20%;
+	border-color: black;
+	max-height: 400px;
+}
+#Success-Modal .modal-body{
+	margin-left: 15%;
+}
+
+#modal-example .col-sm-3{
+	left: 5%;
+	margin-top: 5%;
+}
+
+#modal-example .col-sm-9{
+	left: 5%;
+	max-height: 300px;	
+	overflow: auto;
+	
+}
+
+.glyphicon-remove{
+	float: right;
+}
+
+#greenSuccessModalFont{
+	color:  #29407C
+
+	;
+}
+
+#about-us-content-text{
+	margin-right: 5%;
+	max-height: 300px;
+	overflow: auto;
+}
+
+/*
+==================Event Badge Realated CSS==================
+*/
+
+.shape{    
+	border-style: solid; border-width: 0 70px 40px 0; float:right; height: 0px; width: 0px;
+	-ms-transform:rotate(360deg); /* IE 9 */
+	-o-transform: rotate(360deg);  /* Opera 10.5 */
+	-webkit-transform:rotate(360deg); /* Safari and Chrome */
+	transform:rotate(360deg);
+}
+.offer{
+	 border:1px solid #ddd; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); margin: 15px 0; overflow:hidden;
+
+}
+
+.offer:hover {
+    -webkit-transform: scale(1.1); 
+    -moz-transform: scale(1.1); 
+    -ms-transform: scale(1.1); 
+    -o-transform: scale(1.1); 
+    transform:rotate scale(1.1); 
+    -webkit-transition: all 0.4s ease-in-out; 
+-moz-transition: all 0.4s ease-in-out; 
+-o-transition: all 0.4s ease-in-out;
+transition: all 0.4s ease-in-out;
+    }
+.shape {
+	border-color: rgba(255,255,255,0) #29407C
+
+	 rgba(255,255,255,0) rgba(255,255,255,0);
+}
+.offer-radius{
+	border-radius:7px;
+}
+.offer-danger {	border-color: #29407C
+
+	;  margin-left: 20%;margin-right: 20%;background-color: white;}
+.offer-danger .shape{
+	border-color: transparent #29407C
+
+	 transparent transparent;
+}
+.offer-success {	border-color: #5cb85c; }
+.offer-success .shape{
+	border-color: transparent #5cb85c transparent transparent;
+}
+.offer-default {	border-color: #999999; }
+.offer-default .shape{
+	border-color: transparent #999999 transparent transparent;
+}
+.offer-primary {	border-color: #428bca; }
+.offer-primary .shape{
+	border-color: transparent #428bca transparent transparent;
+}
+.offer-info {	border-color: #5bc0de; }
+.offer-info .shape{
+	border-color: transparent #5bc0de transparent transparent;
+}
+.offer-warning {	border-color: #f0ad4e; }
+.offer-warning .shape{
+	border-color: transparent #f0ad4e transparent transparent;
+}
+
+.shape-text{
+	color:#fff; font-size:12px; font-weight:bold; position:relative; right:-40px; top:2px; white-space: nowrap;
+	-ms-transform:rotate(30deg); /* IE 9 */
+	-o-transform: rotate(360deg);  /* Opera 10.5 */
+	-webkit-transform:rotate(30deg); /* Safari and Chrome */
+	transform:rotate(30deg);
+}	
+.offer-content{
+	padding:0 20px 10px;
+}
+@media (min-width: 487px) {
+  .container {
+    max-width: 750px;
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+}
+@media (min-width: 900px) {
+  .container {
+    max-width: 970px;
+  }
+  .col-md-4 {
+    width: 33.33333333333333%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  }
+}
+
+#callout{
+	display : none;
+}
+
+/*.navbar-inverse .navbar-nav>li>a {
+color: #29407C
+
+;
+font-size: 20px;
+}
+*/
+
+
+
+/*Top Button Link*/
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+}
+
+/* increase width of >>*/
+.fa-angle-double-right{
+	width: 30px;
+	height: 30px;
+}
+
+/*Footer */
+#footer-bottom{
+	text-align: center;
+	background : #101010;
+}
+
+#footer-texts{
+	text-align : center;
+}
+
+
+/*Brand Height Adjust*/
+#callout{
+	display : none;
+}
+
+
+
+/*tooltip*/
+figure {
+  display: block;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 0 20px 20px 0;
+}
+figcaption {
+  position: absolute;
+  background: black;
+  background: rgba(0,0,0,0.75);
+  color: white;
+  padding: 10px 20px;
+  opacity: 0;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition:    all 0.6s ease;
+  -o-transition:      all 0.6s ease;
+}
+figure:hover figcaption {
+  opacity: 1;
+}
+figure:before {
+  content: "i";
+  position: absolute;
+  font-weight: 800;
+  background: black;
+  background: rgba(255,255,255,0.75);
+  text-shadow: 0 0 5px white;
+  color: black;
+  width: 24px;
+  height: 24px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius:    12px;
+  border-radius:         12px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 24px;
+  -moz-transition: all 0.6s ease;
+  opacity: 0.75;
+}
+figure:hover:before {
+  opacity: 0;
+}
+
+.cap-left:before {  bottom: 10px; left: 10px; }
+.cap-left figcaption { bottom: 0; left: -30%; }
+.cap-left:hover figcaption { left: 0; }
+
+.cap-right:before { bottom: 10px; right: 10px; }
+.cap-right figcaption { bottom: 0; right: -30%; }
+.cap-right:hover figcaption { right: 0; }
+
+.cap-top:before { top: 10px; left: 10px; }
+.cap-top figcaption { left: 0; top: -30%; }
+.cap-top:hover figcaption { top: 0; }
+
+.cap-bot:before { bottom: 10px; left: 10px; }
+.cap-bot figcaption { left: 0; bottom: -30%;}
+.cap-bot:hover figcaption { bottom: 0; }
+
+/*
+==================Custom Button  used in BoxOf4Features Realated CSS==================
+*/
+
+.btn-sample { 
+  color: black;
+  background-color: rgb(75, 17, 14);
+
+  ; 
+  border-color: rgb(75, 17, 14);
+
+  ; 
+} 
+ 
+.btn-sample:hover, 
+.btn-sample:focus, 
+.btn-sample:active, 
+.btn-sample.active, 
+.open .dropdown-toggle.btn-sample { 
+  color: #3B0B0B; 
+  background-color: #D08504; 
+  border-color: #D08504; 
+} 
+ 
+.btn-sample:active, 
+.btn-sample.active, 
+.open .dropdown-toggle.btn-sample { 
+  background-image: none; 
+} 
+ 
+.btn-sample.disabled, 
+.btn-sample[disabled], 
+fieldset[disabled] .btn-sample, 
+.btn-sample.disabled:hover, 
+.btn-sample[disabled]:hover, 
+fieldset[disabled] .btn-sample:hover, 
+.btn-sample.disabled:focus, 
+.btn-sample[disabled]:focus, 
+fieldset[disabled] .btn-sample:focus, 
+.btn-sample.disabled:active, 
+.btn-sample[disabled]:active, 
+fieldset[disabled] .btn-sample:active, 
+.btn-sample.disabled.active, 
+.btn-sample[disabled].active, 
+fieldset[disabled] .btn-sample.active { 
+  background-color: #29407C
+
+  ; 
+  border-color: #29407C
+
+  ; 
+} 
+ 
+.btn-sample .badge { 
+  color: #29407C
+
+  ; 
+  background-color: #3B0B0B; 
+}
+
+/*
+==================Carousel Indicators Realated CSS==================
+*/
+.carousel-control.right,.carousel-control.left {
+	background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0, 0, 0, 0) 100%);
+}
+
+.carousel-control:hover, .carousel-control:focus {
+	opacity: 1;
+}
+.about-us-content{
+	display : none;
+
+}
+
+
+
+
+
+/*
+==================Table Realated CSS==================
+*/
+
+.custab{
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 5% 0;
+    box-shadow: 3px 3px 2px #ccc;
+    transition: 0.5s;
+    }
+.custab:hover{
+    box-shadow: 3px 3px 0px transparent;
+    transition: 0.5s;
+    }
+
+.table-striped>tbody>tr:nth-child(odd)>td, .table-striped>tbody>tr:nth-child(odd)>th {
+background-color: #29407C;
+}
+/*div.accordion-heading.country{
+	float: left;
+	margin-left: 5%;
+}*/
+
+
+/*
+==================Ordered List Realated CSS==================
+*/
+
+.ol-font{
+	color: white;
+}
+
+.panel-danger>.panel-heading {
+color: #a94442;
+background-color: #f2dede;
+border-color: #ebccd1;
+}
+
+.btn-danger {
+box-shadow: 0 0 0 1px rgb(75, 17, 14) inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 rgb(75, 17, 14), 0 8px 0 1px rgba(0,0,0,0.4), 0 8px 8px 1px rgba(0,0,0,0.5);
+background-color: rgb(75, 17, 14);
+border-color: rgb(75, 17, 14);
+}
+
+/*#660000 #29407C #29407C
+
+*/
+.myFooter{
+	margin-top: 2%;
+}
+
+/*test*/
+.container {
+    margin-top: 20px;
+}
+
+/* Carousel Styles */
+.carousel-indicators .active {
+    background-color: #2980b9;
+}
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 460px
+}
+
+.carousel-control {
+    width: 0;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	background-image: none;
+	background-repeat: no-repeat;
+	text-shadow: none;
+}
+
+.carousel-control.left span {
+	padding: 15px;
+}
+
+.carousel-control.right span {
+	padding: 15px;
+}
+
+.carousel-control .glyphicon-chevron-left, 
+.carousel-control .glyphicon-chevron-right, 
+.carousel-control .icon-prev, 
+.carousel-control .icon-next {
+	position: absolute;
+	top: 45%;
+	z-index: 5;
+	display: inline-block;
+}
+
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .icon-prev {
+	left: 0;
+}
+
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-next {
+	right: 0;
+}
+
+.carousel-control.left span,
+.carousel-control.right span {
+	background-color: #000;
+}
+
+.carousel-control.left span:hover,
+.carousel-control.right span:hover {
+	opacity: .7;
+	filter: alpha(opacity=70);
+}
+
+/* Carousel Header Styles */
+.header-text {
+    position: absolute;
+    top: 20%;
+    left: 1.8%;
+    right: auto;
+    width: 96.66666666666666%;
+    color: #fff;
+}
+
+.header-text h2 {
+    font-size: 40px;
+}
+
+.header-text h2 span {
+    background-color: #2980b9;
+	padding: 10px;
+}
+
+.header-text h3 span {
+	background-color: #000;
+	padding: 15px;
+}
+
+.btn-min-block {
+    min-width: 170px;
+    line-height: 26px;
+}
+
+.btn-theme {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    margin-right: 15px;
+}
+
+.btn-theme:hover {
+    color: #000;
+    background-color: #fff;
+    border-color: #fff;
+}
